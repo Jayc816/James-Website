@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+}
+#header{
+    background-image: url(Images/banner2.jpeg);
+    background-position: center;
+    padding: 15%;
+    background-size: 100%;
+}
+#banner{
+    width: 100%;
+}
+#maincontainer, #reviewscontainer, #hcontact, #hsocialconatainer, .navbar {
+    max-width: 1400px;
+    margin: auto;
+}
+#sitenav{
+    background: #F8F9FA;
+}
+.nav-link{
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inlineflex{
+    display: inline-flex;
+    width: 100%;
+}
+.inlineflex .column6 div{
+    width: 16.6%;
+    padding: 20px;
+}
+.inlineflex .column5 div{
+    width: 20%;
+    padding: 20px;
+}
+.inlineflex .column4 div{
+    width: 25%;
+}
+.inlineflex .column3 div{
+    width: 33.3%;
+    padding: 20px;
+}
+.inlineflex .column2{
+    width: 50%;
+    padding: 20px;
+}
+#hsocialconatainer, #reviewscontainer, #maincontainer{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+#maincontainer .inlinflex div{
+    text-align: center;
+}
+#maincontainer img{
+    width: 300px;
+    height: 200px;
+}
+#reviews, #hsocial{
+    background-color: #7851a9;
+}
+#reviews h2, .containertitle{
+    text-align: center;
+    color: gold;
+    font-size: 40px;
+}
+.blacktitle{
+    color: black;
+}
+#reviews p{
+    color: white;
+    font-size: 18px;
+}
+#reviews b{
+    color: gold;
+    font-size 20px
+}
+.review-iframe{
+    width: 100%;
+    height 315px;
+}
+/*-----Contact Us-----*/
+#homeform{
+    Border: 1px solid #7851a9;
+    padding: 10px;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+#homeform input, #homeform textarea{
+    width:  100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#homeform P{
+    text-align: center;
+    color: #7851a9;
+    margin-bottom: 100px;
+}
+#homeform .submitbutton{
+    width: 100%;
+    background: #7851a9;
+    color: gold;
+    font-size: 16px;
+}
+#hsocialcontainer hr{
+    color: black;
+}
+#socialicon img{
+    width: 35px;
+}
+#footer{
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+}
+/*---Responsive Design ---*/
+#maincontainer .box{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    font-family: sans-serif;
+    background: yellow;
+    border-radius: 25px;    
+}
+#maincontainer .shadow{
+    background: yellow;
+    font-family: sans-serif;
+    padding: 20px;
+    width: 200px !important;
+    height: 100px;
+    box-shadow: 10px 10px;
+}
+#maincontainer .normal{
+    background: gray;
+    font-family: sans-serif;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+}
+#maincontainer .transparent{
+    background: gray;
+    font-family: sans-serif;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    opacity: 0.5;
+}
+#maincontainer .grad1{
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    background-image: linear-gradient(blue,yellow);
+}
+/*---Responsive Design ---*/
+@media screen and (max-width: 800px){
+    #mainconatiner img{
+        width: 100%;
+        height: auto;
+    }
+    .review-iframe{
+        height: 125px;
+    }
+        #header{
+        background-image: url(Images/mobile2.jpg);
+        padding: 40%;
+    }
+    #sitenav{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    }
+    h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .inlineflex{
+    display: block;
+    width: 90%;
+    margin: auto;
+    }
+    #maincontainer img {
+        width: 80%;
+        height: auto;
+    }
+    .review-iframe{
+        height: 220px;
+    }
+
+}

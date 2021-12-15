@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addingstyle.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div id="header"></div>
+        <div id="sitenav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="Index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="block2.html">CSS</a>
+                <a class="nav-link" href="jsscript.html">JS</a>
+                <a class="nav-link" href="MoreJS.html">Advanced JS</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        </div>
+        <div id="maincontainer">
+           <div class="inlineflex column4">
+               <div>
+                   <div class="box">Box with Rounded corner</div>
+               </div>
+               <div>
+                   <div class="shadow">Shape with a box</div>
+               </div>
+               <div>
+                   <div class="normal"=>transparency</div>
+                   <div class="transparent">transparency</div>
+               </div>
+               <div>
+                   <div class="grad1"></div>
+               </div>
+   
+           </div>
+        </div>
+        <!--
+        <div class="inlineflex column6">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        -->
+</div>
+<!--***** Social *****-->
+<div id="hsocial">
+
+    <div id="hsocialcontainer">
+        <div class="inlineflex">
+            <div>
+                <h3>About Us</h3>
+                <hr/><br/>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </div>
+            <div>
+                <h3>Contact US</h3>
+                <hr/><br/>
+                Phone:<br />
+                (123)456-7890<br/>
+                11222 S La Cienega Blvd Suite 588,
+                Lennox, CA 90304               
+            </div>
+            <div id="socialicon">
+                <h3>Follow US</h3>
+                <hr/><br/>
+                <a href="https://www.instagram.com/?hl=en" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEU7WZj///8mS5Hf4+3w8vcqTpM2VpcnTJLS1+X09vmzvNMzVJYvUZQeR4/j5u/K0OBEYJyOnL95irSHlrt0hrGossyfq8iNm75Sa6JbcqY+XJpvgq+YpcSstc6AkLdnfKzFy91NZ6DEy9wAPIsPQY2Bl4GkAAAEZUlEQVR4nO3dW3eiMBQFYIglQiEgVK127HXm///GoRentmtVNoZDOMzeT30pJ99aBiQ3o/gzWbmYR8rsRBUd/6iayJm5xEVN9U2YrkwezSm5WaWnwtrZ0E0aPNbVn8J1Ero5IknWR2E9T2BLrN+FqQvdErG49E24ml8fPMauXoWVCd0OwZiqFTbzekx8Td60wtCNEE4cZfO9z7zGZVE5527YdsQyWsxcuKBQeyjUHwr1h0L9oVB/KNQfCvWHQv2hUH8oDB2b58VJ8jy3tt8I/XSFtkhMcrdvbg/bzf39ZrPZHurbm4f14/45yhNjTJK04m7tNIW2MMvH7dOXueovybKrRfW0OTS7TuIUhYXbbRc/2b7lunNecHJCu7TbEuRpFFqzf8F5+oStL+3l0yYsoqeePmVCd9Pbp0poi74fUGXCYvfjs28ewveFLzMWLi/pgpqEycVAJcKiuRioQ5jvLweqENr8sruoHqG76DmoSFjUPkAFQnvnBVQgNFW3QrXQPvoBpy906GiFVmH+yxM4eaHfk0KB0O58gVMXJtdzFzqf72sahNb7PjN14QAf0okLzdXMhfbZHzhtoedbxYew6CoTUJj0GOEurw+/dqvX+dJvmfT8oUGnmLLtnUuKvnO//8oE/JSCwM2y8Nl5Fk5owQGo/dKvTjhh/oABO28lHQknLLYI8NZ7d2s4IfSNpvTfdRZQiIzQPPhvjQwnXCJvvwNsHAwnNMAQTeV5H32vE0wIfO/e+t5Io6kLh9ihPG1h95ouoM6khUMcFDBt4RAnIUxbOMCNZuLCIQ4koVAuFFII16FQLBRSCNehUCwUUgjXoVAsFFII16FQLBTqFzpAOMCgvrDQngkkPHcBi83siwqTboNngNk35cJ94NUm8kKgEbqFGdB03ULk6FXdwgp4YOoWdq9M1C48AJNTuoVrYBZctxCZBdctRFquWgidRK5aCLVctfAFeX9ULbxHVjKoFtazFz7O/g34efZCaEGRZuEVtL5WszCFGq5Z+AQNp2oWbmbfD2+gFcSahdDjULUQW1+rWYhtxlAsBH/FSbEwxWamFAuRoUTdQmQoUbcQ3NemWAjMrIkLi/RcAMTZ/7/DGiE7y708k9/ALPcfc+YCYBu4FkMuFFII16FQLBRSCNehUCwUUgjXoVAsFFII16FQLBRSCNehUCwUUgjXoVAsFFII16FQLBRSCNehUCwUUgjXoVAsFFII16FQLBRSCNehUCwUUgjXoVAsFFII16FQLBRSCNehUCwUUgjXoVAsFFII16FQLBRSCNehUCwUUgjX+R+E4Ek2Q2c0YRlBJ7kOn7GELouQw+kFMpaw9Q3yy8n9M5Iwb1phFaQjjiQ0VSsc5KeT+5ceRWhX8aswDXGvGUfo0jdhXA/SpftlFGFSx+/CeD0+cQxhso6Pwrh2Y/dFeaF1dfwpjNOVGfehIS3MzerjsK3oeLmqiZwZL9hJWJfGRU11vEp0csWsXIyXrDsXX7vMTlR/AYn9VbN6VB0TAAAAAElFTkSuQmCC">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                <img src="data:image/png;base64,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">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--***** Footer *****-->
+<div id="footer">
+    &#169;James Custodio
+</div>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
